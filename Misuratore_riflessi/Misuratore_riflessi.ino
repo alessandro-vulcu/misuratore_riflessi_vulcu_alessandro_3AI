@@ -51,7 +51,7 @@ void accensione_led(){
     
     if(time1 > 250){
     lcd.setCursor(0,0);
-    lcd.print("Troppo lento");
+    lcd.print("Too slow");
     delay(3000);
     lcd.clear();
     stato_pulsante = 0;
