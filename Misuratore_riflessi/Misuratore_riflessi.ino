@@ -87,7 +87,7 @@ void suono_buzzer(){
    
    if(time2 > 250){
     lcd.setCursor(0,1);
-    lcd.print("Troppo lento");
+    lcd.print("Too slow");
     delay(3000);
     lcd.clear();
     stato_pulsante = 0;
